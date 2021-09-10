@@ -1,0 +1,4 @@
+# https://rust-lang.github.io/rustfmt/
+# indent_style = "Block"
+reorder_imports = false
+max_width = 120
