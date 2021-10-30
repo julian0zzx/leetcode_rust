@@ -15,6 +15,7 @@ mod lc_0005_longest_palindrome;
 mod lc_0006_zigzag_conversion;
 mod lc_0010_regular_expres;
 mod lc_0020_valid_parentheses;
+mod lc_0026_remove_duplicates;
 
 fn main() {
     println!("{:?}", lc_0020_valid_parentheses::is_valid("([)]".to_string()));
