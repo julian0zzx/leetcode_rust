@@ -17,10 +17,11 @@ mod lc_0010_regular_expres;
 mod lc_0020_valid_parentheses;
 mod lc_0026_remove_duplicates;
 mod lc_0027_remove_element;
+mod lc_0028_impl_strstr;
 
 fn main() {
     // println!("{:?}", lc_0020_valid_parentheses::is_valid("([)]".to_string()));
-    println!("{}", lc_0027_remove_element::remove_element2(&mut vec![3, 2, 2, 3], 3));
+    println!("{}", lc_0028_impl_strstr::str_str2("abc".to_string(), "c".to_string()));
 }
 
 fn convert(s: String, n: i32) -> String {
