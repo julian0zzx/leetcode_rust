@@ -17,8 +17,10 @@ mod lc_0010_regular_expres;
 mod lc_0020_valid_parentheses;
 mod lc_0026_remove_duplicates;
 
+use log::{debug, error, info, trace, warn};
+
 fn main() {
-    println!("{:?}", lc_0020_valid_parentheses::is_valid("([)]".to_string()));
+    info!("{:?}", lc_0020_valid_parentheses::is_valid("([)]".to_string()).to_string());
 }
 
 fn convert(s: String, n: i32) -> String {
